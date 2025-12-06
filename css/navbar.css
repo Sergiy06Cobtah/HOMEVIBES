@@ -1,0 +1,16 @@
+.navclass{
+    background-image: url(/images/navback.png);
+    height: 100vh;
+
+}
+.backimg{
+    height: 100%;
+    width:  100%;
+    background-image: url(/images/navback.png);
+    background-size: cover;
+
+}
+.bodyclass{
+    height: 100vh;
+    margin: 0;
+}
