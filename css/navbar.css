@@ -1,16 +1,36 @@
-.navclass{
-    background-image: url(/images/navback.png);
+.navclass {
     height: 100vh;
-
-}
-.backimg{
-    height: 100%;
-    width:  100%;
-    background-image: url(/images/navback.png);
+    background-image: url(/images/furniture2.jpg);
     background-size: cover;
+}
+.backimg {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.74);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
-.bodyclass{
+.bodyclass {
     height: 100vh;
     margin: 0;
+
+}
+.golovnytext h1{
+    text-align: center;
+    background: linear-gradient(to top, yellow, #7928ca);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.golovnytext p{
+    text-align: center;
+    background: linear-gradient(to top, yellow, #7928ca);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.golovnytext {
+    font-size: 3vh;
+
 }
