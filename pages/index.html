@@ -4,25 +4,29 @@
         <meta charset="UTF-8" />
         <title>HOMEVIBE</title>
         <link rel="icon" href="/images/icon.png" />
-          <link rel="stylesheet" href="/css/styles.css" />
+        <link rel="stylesheet" href="/css/styles.css" />
         <link rel="stylesheet" href="/css/navbar.css" />
-        <link rel="stylesheet" href="/java/interactive.js" />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=settings" />
     </head>
     <body class="bodyclass">
-   <header class="navclass">
-        <div class="backimg">
-            <div class="golovnytext">
-        <h1 class="cTEXT">HOMEVIBE</h1>
-            <p>premium furniture shop</p>
+        <div class="options">
+            <button onmouseout="hideMenu()" onmouseover="showMenu()">
+                <span class="material-symbols-outlined"> settings </span>
+            </button>
+            <div onmouseout="hideMenu()" onmouseover="showMenu()" id="menu" class="menu">
+                <input type="range" id="opcity2" />
             </div>
-
-       </div>
-
-
+        </div>
+        <header class="navclass">
+            <div id="backImg" class="backimg">
+                <div class="golovnytext">
+                    <h1 class="cTEXT">HOMEVIBE</h1>
+                    <p>premium furniture shop</p>
+                </div>
+            </div>
         </header>
-
-
-
-
+        <script src="/java/interactive.js"></script>
     </body>
 </html>
