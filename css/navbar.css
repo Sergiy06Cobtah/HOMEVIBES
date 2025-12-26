@@ -48,3 +48,17 @@
     background-color: rgba(255, 255, 255, 0.54);
     display: none;
 }
+.d1 {
+    background-image: url(/images/material1.webp);
+    width: 29%;
+    background-color: gray;
+}
+.i1 {
+    width: 100%;
+    padding: 7%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.i1 img {
+    width: 100%;
+}
