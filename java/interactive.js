@@ -10,3 +10,20 @@ function opacity() {
 function hideMenu() {
     document.getElementById("menu").style.display = "none";
 }
+let shkaf = document.getElementById("shid");
+shkaf.addEventListener("mousemove", buttonAnimation);
+function buttonAnimation(e) {
+    let rect = shkaf.getBoundingClientRect();
+    let mouseX = e.clientX - rect.left;
+    let center = rect.right / 2;
+    let d = 0;
+    if (mouseX > center) {
+        console.log(">");
+        d = mouseX / 10;
+        shkaf.style.transform = "rotate(-" + d + "deg)";
+    } else {
+        d = mouseX / 10;
+
+        shkaf.style.transform = "rotate(" + d + "deg)";
+    }
+}

@@ -81,6 +81,9 @@
 }
 .sh1 {
     background: linear-gradient(to left, yellow, #7928ca);
+    transform: rotate(0deg);
+    transform-origin: bottom center;
+    transition: 0.2s;
 }
 .beds {
     background-color: yellow;
@@ -89,4 +92,6 @@
 }
 .tumbu {
     background: linear-gradient(to right, yellow, #7928ca);
+}
+.sh1:hover {
 }
