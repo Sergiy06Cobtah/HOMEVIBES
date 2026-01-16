@@ -77,21 +77,30 @@
     margin-top: 10px;
     padding: 0 49px;
     border-top: none;
-    border-left: solid linear-gradient(to top, yellow, #7928ca);
 }
 .sh1 {
-    background: linear-gradient(to left, yellow, #7928ca);
+    background-color: yellow;
     transform: rotate(0deg);
     transform-origin: bottom center;
     transition: 0.2s;
+     border-bottom: 6px solid #9b9b00;
+    border-left: solid #4d4d02;
+    border-right: solid #4d4d02;
+    border-radius: 5px;
 }
 .beds {
     background-color: yellow;
     border-bottom: 6px solid #9b9b00;
-    border-left: solid #9b9b00;
+    border-left: solid #4d4d02;
+    border-right: solid #4d4d02;
+    border-radius: 5px
 }
 .tumbu {
-    background: linear-gradient(to right, yellow, #7928ca);
+   background-color: yellow;
+    border-bottom: 6px solid #9b9b00;
+    border-left: solid #4d4d02;
+    border-right: solid #4d4d02;
+    border-radius: 5px;
 }
-.sh1:hover {
-}
+.tumbu:hover {
+      background: linear-gradient(to left, yellow, #7928ca);

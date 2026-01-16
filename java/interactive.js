@@ -15,15 +15,22 @@ shkaf.addEventListener("mousemove", buttonAnimation);
 function buttonAnimation(e) {
     let rect = shkaf.getBoundingClientRect();
     let mouseX = e.clientX - rect.left;
-    let center = rect.right / 2;
-    let d = 0;
+    let center = rect.width / 2;
+    let d = (center - mouseX) / 5;
+
     if (mouseX > center) {
-        console.log(">");
-        d = mouseX / 10;
-        shkaf.style.transform = "rotate(-" + d + "deg)";
+        console.log(d);
+
+        shkaf.style.transform = "rotate(" + d + "deg)";
     } else {
-        d = mouseX / 10;
+        console.log(d);
 
         shkaf.style.transform = "rotate(" + d + "deg)";
     }
+}
+shkaf.addEventListener("mouseout", butstart);
+function butstart() {
+    shkaf.style.transform = "rotate(" + 0 + "deg)";
+
+
 }
